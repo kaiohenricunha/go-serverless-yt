@@ -1,7 +1,7 @@
-# Provisioning infrastructure
+# Project's to-do list
 
 ## AWS account and setup
-- [] Create AWS account.
+- [X] Create AWS account.
 - [] AWS CLI.
 - [] AWS SAM CLI?
 - [] CloudFormation?
@@ -32,7 +32,7 @@
 - [] On Actions, create method: ANY, integration type is lambda function, use lambda proxy integration, lambda region is us-east-1, lambda function is go-serverless-yt, use default timeout. Save.
 - [] From actions, deploy API. Deployment stage: New Stage. Stage name: staging. Deploy.
 
-# Test API
+# Test API(example links)
 - [] Test URL: https://go-serverless-yt-staging.execute-api.us-east-1.amazonaws.com/staging/
   - POST: curl --header "Content-Type: application/json" --request POST --data '{"email": "kaiotest@gmail.com", firstName: "Kaio", lastName: "Cunha"}' [https://go-serverless-yt-staging.execute-api.us-east-1.amazonaws.com/staging/
   - GET: curl -X GET https://go-serverless-yt-staging.execute-api.us-east-1.amazonaws.com/staging/
